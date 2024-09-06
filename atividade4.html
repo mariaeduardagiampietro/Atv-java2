@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4 </title>
+
+    <script>
+        var letras = ["h", "i", "j", "k", "l", "m", "n", "o", "p", "q"]
+        var vogais = ["a", "e", "i", "o", "u"]
+        var consoantes = []
+
+        for (posicao in letras){
+            if (vogais.includes(letras[posicao]) == false) {
+                consoantes.push(letras[posicao])
+            }
+        }
+        alert("Essas são as consoantes: "+ consoantes)
+        alert("Essas são as quantidades de consoantes: " +consoantes.length)
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
